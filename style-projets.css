@@ -1,0 +1,104 @@
+body{
+    background-color: #0D1520;
+    color:#70B8FF;
+    font-size: 1em;
+    font-family:'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 0px;
+}
+
+
+nav a {
+    margin: 15px;
+}
+
+.menu{
+    font-size: 1.2em;
+    display: flex;
+    justify-content:flex-end;
+
+    margin-right: 120px;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    margin-right: 120px;
+    margin-top: 150px;
+}
+
+footer a {
+    margin: 5px;
+}
+
+h1{
+    color: linear-gradient(#70B8FF, #C2E6FF);
+    font-size: 3.5em;
+    
+
+    width: 80%;
+    margin: 0 auto 50px auto;
+}
+
+a {
+    color: #70B8FF;
+    text-decoration: none;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80%;
+    margin: 0 auto 80px auto;
+}
+
+.entete p {
+    color:#C2E6FF;
+    text-align: justify;
+
+    width: 70%;
+}
+
+
+.cta-demande-projet {
+    background: linear-gradient(#104D87, #2870BD);
+    color: #C2E6FF;
+    text-align: center;
+
+    border: solid;
+    border-radius: 50px;
+
+    width: 15%;
+    height: 30%;
+    padding: 5px 5px 5px 5px;
+}
+
+.cta-demande-projet:hover {
+    font-size: large;
+    text-decoration: none;
+  }
+
+
+.projets {
+    border-right: 1.3px skyblue solid;
+    border-bottom: 1.1px skyblue solid;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 50px;
+}
+
