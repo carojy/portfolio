@@ -12,17 +12,29 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <a href="accueil.html"><img src="sources/logo-transparent-png.png" alt="logo-caroline-cirier"></a>
-        <div class="menu">
-            <a href="accueil.html">accueil/</a>
-            <a href="page-projets.html">projets/</a>
-            <a href="experience.html">expérience/</a>
-            <a href="">contact/</a>
-        </div>
+
+        <nav id="nav">
+            <a href="accueil.html" class="logo"><img src="sources/logo-transparent-png.png" alt="logo-caroline-cirier"></a>
+
+            <ul>
+                <li>
+                    <a href="accueil.html">accueil/</a>
+                </li>
+                <li>
+                    <a href="page-projets.html">projets/</a>
+                </li>
+                <li>
+                    <a href="experience.html">expérience/</a>
+                </li>
+                <li>
+                    <a href="contact.html">contact/</a>
+                </li>
+            </ul>
+
+            <div id="icons"></div>
+        
         </nav>
-    </header>
+
     
     <main>
 
@@ -34,9 +46,8 @@
                         <h1 class="typewriter-anim">Hello world</h1>
                     </div>
                 
-                    <p>Moi c'est Caro.<br>
-                    Mais si tu es arrivé là j'imagine que tu le sais déjà.<br>
-                    Ou alors cette page est mieux référencée que prévu (du coup bye).</p>
+                    <p class="texte">Moi c'est Caro.<br>
+                    Mais si tu es arrivé là j'imagine que tu le sais déjà. Ou alors cette page est mieux référencée que prévu.</p>
                     <a href="experience.html" class="cta-experience">Faisons connaissance</a>
                 </div>
 
@@ -47,9 +58,12 @@
     </main>
 
     <footer class="footer">
-            <a href="accueil.html"><img src="sources/logo-transparent-png.png" alt="logo-caroline-cirier"></a>
-            <a href="https://www.linkedin.com/in/caroline-cirier/" target="_blank"><img src="sources/logo-linkedin-blanc.png" alt="logo linkedin"></a>
-            <a href="https://github.com/carojy" target="_blank"><img src="sources/logo-github-blanc.png" alt="logo github"></a>
+            <a href="accueil.html" id="logo-footer"><img src="sources/logo-transparent-png.png" alt="logo-caroline-cirier"></a>
+            
+            <div class="logos-social-media">
+                <a href="https://www.linkedin.com/in/caroline-cirier/" target="_blank"><img src="sources/logo-linkedin-blanc.png" alt="logo linkedin"></a>
+                <a href="https://github.com/carojy" target="_blank"><img src="sources/logo-github-blanc.png" alt="logo github"></a>
+            </div>
     </footer>
     
     <script src="script_portfolio.js"></script>
