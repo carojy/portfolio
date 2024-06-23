@@ -63,9 +63,7 @@ footer {
     flex-direction: row;
     align-items: center;
 
-    margin-left: 50vw;
-    margin-right: 15vw;
-    margin-top: 150px;
+    margin : 150px 15vw 0 50vw;
 }
 
 
@@ -429,8 +427,9 @@ label{
 /* RESPONSIVITE */
 
 @media(max-width:850px){
+    /* RESPONSIVITE */
     body{
-        margin: 0;
+        margin-left: 0;
         padding: 0;
         width: 90%;
     }
@@ -498,11 +497,42 @@ label{
         text-decoration: none;
     }
 
+    .logo{
+        margin-left: 0px;
+        
+    }
+
+    h1{
+        margin-left: 15vw;
+        font-size:2em;
+    }
+    
+    footer{
+        margin : 20vw 0vw 10vw 0vw;
+        flex-direction: start;
+    }
+
+
     .presentation {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        width: 75%;
+        padding: 10px;
+        margin-left: 12vw;
     }
+
+    
+    
+    .presentation h1{
+        margin: 20px 0 0 20px;
+    }
+
+
+
+
+
 
     .texte{
         margin: 0 40px 53px 20px;
@@ -515,21 +545,49 @@ label{
 
     .typewriter-anim {
         font-size: 2.2em;
+        white-space:wrap;
     }
 
-    .logos-social-media a {
+    .entete {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
 
-        margin-right: 2vw;
-        margin-left: 0;
+    
+        width: 100%;
+        padding: 10px;
+        margin: auto;
     }
 
-    #logo-footer {
+    .projets {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 55px;
+        
+        width: 80%;
+        margin: 50px auto 0 auto;
+        padding-bottom: 50px;
+    }
+    .experience {
+        flex-direction: column;
+    }
+
+    .experience h2 {
+        display:none;
+    }
+    .cta-portfolio{
         width: 60%;
+        padding:10px;
     }
 
-    footer {
-        margin-left: 0px;
+    .skills, .skills p, .CV {
+        width:100%;
     }
+
+    .CV{
+        align-items: center;
+    }
+
+
 }
