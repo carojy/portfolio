@@ -88,9 +88,7 @@ h2 {
 }
 
 
-
 /*ACCUEIL*/
-
 .presentation {
     display: flex;
     flex-direction: row;
@@ -167,22 +165,15 @@ h2 {
 
     width: 80%;
     margin: 0 40px 35px 20px;
-
 }
 
 
-.presentation .logos-social-media a {
-    margin-left: 10px;
-}
-
-
-.presentation .logos-social-media {
+.presentation .logos-social-media, .presentation .logos-social-media a {
     margin-left: 10px;
 }
 
 
 /* PROJETS */
-
 .projets {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -198,7 +189,6 @@ h2 {
 .projets img {
     width: 100%;
     height: 100%;
-
 }
 
 
@@ -220,18 +210,6 @@ h2 {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
-
-}
-
-
-.text-hover{
-    width: 80%;
-
-}
-
-
-.voir-github{
-    font-size: small;
 }
 
 
@@ -240,12 +218,22 @@ h2 {
 }
   
 
+.text-hover{
+    width: 80%;
+}
+
+
+.voir-github{
+    font-size: small;
+}
+
+
 .entete .cta-demande-projet{
     padding: 20px;
 }
 
-/*EXPERIENCE*/
 
+/*EXPERIENCE*/
 .entete {
     display: flex;
     justify-content: space-around;
@@ -325,6 +313,8 @@ h2 {
 .skills p{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
 
     width: 80%;
     height: 50%;
@@ -351,10 +341,7 @@ h2 {
 }
 
 
-
 /* CONTACT */
-
-
 form {
     display:flex;
     flex-direction: column;
@@ -424,8 +411,8 @@ label{
     margin: 50px 100px 50px 100px;
 }
 
-/* RESPONSIVITE */
 
+/* RESPONSIVITE */
 @media(max-width:850px){
     /* RESPONSIVITE */
     body{
@@ -474,7 +461,6 @@ label{
 
         padding: 0;
         width: 100%;
-
     }
 
     nav li{
@@ -499,7 +485,6 @@ label{
 
     .logo{
         margin-left: 0px;
-        
     }
 
     h1{
@@ -508,10 +493,9 @@ label{
     }
     
     footer{
-        margin : 20vw 0vw 10vw 0vw;
+        margin : 20vw 0vw 0vw 0vw;
         flex-direction: start;
     }
-
 
     .presentation {
         display: flex;
@@ -523,24 +507,8 @@ label{
         margin-left: 12vw;
     }
 
-    
-    
     .presentation h1{
         margin: 20px 0 0 20px;
-    }
-
-
-
-
-
-
-    .texte{
-        margin: 0 40px 53px 20px;
-    }
-
-    .presentation img{
-        margin-bottom: 0px;
-        margin-top: 50px;
     }
 
     .typewriter-anim {
@@ -548,14 +516,19 @@ label{
         white-space:wrap;
     }
 
+    .texte{
+        margin: 0 40px 53px 20px;
+    }
+
+    .presentation img{
+        margin-top: 50px 0px 0px 0px;
+    }
+
     .entete {
-        display: flex;
         flex-direction: column;
         justify-content: center;
 
-    
         width: 100%;
-        padding: 10px;
         margin: auto;
     }
 
@@ -569,25 +542,37 @@ label{
         margin: 50px auto 0 auto;
         padding-bottom: 50px;
     }
+
     .experience {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 80%;
+        align-items: center;
+
+        margin: 0 0 0 15%;
     }
 
     .experience h2 {
         display:none;
     }
-    .cta-portfolio{
-        width: 60%;
-        padding:10px;
+
+    .cta-portfolio {
+        display: none;
     }
 
-    .skills, .skills p, .CV {
+    .skills, .skills p, .CV a img {
         width:100%;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .CV{
-        align-items: center;
+        width:100%;
+        margin-top: 40px;
     }
 
+    .cta-contact{
+        width: 86%;
+        margin-bottom: 20px;
+    }
 
 }
