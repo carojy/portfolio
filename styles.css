@@ -265,7 +265,7 @@ h2 {
 
 
 .cta-portfolio {
-    width: 15%;
+    width: 10%;
     height: 30%;
 }
 
@@ -337,7 +337,7 @@ h2 {
 
 
 .cta-contact{
-    width: 71%;
+    width: 300px;
 }
 
 
@@ -556,7 +556,8 @@ label{
     }
 
     .cta-portfolio {
-        display: none;
+        width: 60%;
+        margin-bottom: 30px;
     }
 
     .skills, .skills p, .CV a img {
@@ -567,7 +568,7 @@ label{
 
     .CV{
         width:100%;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .cta-contact{

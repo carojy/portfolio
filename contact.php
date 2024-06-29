@@ -1,48 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - caroCirier</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="sources/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="sources/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="sources/favicon/favicon-16x16.png">
-    <link rel="manifest" href="sources/favicon/site.webmanifest">
-    <link rel="mask-icon" href="sources/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    
+    <?php include("assets/balise-head.php"); ?>
 </head>
+
 <body>
     
-<nav id="nav">
-            <a href="https://carocirier.fr/" class="logo"><img src="sources/logo.png" alt="logo-caroline-cirier"></a>
-
-            <ul>
-                <li>
-                    <a href="https://carocirier.fr/">/accueil</a>
-                </li>
-                <li>
-                    <a href="page-projets.html">/projets</a>
-                </li>
-                <li>
-                    <a href="experience.html">/expérience</a>
-                </li>
-                <li>
-                    <a href="contact.php">/contact</a>
-                </li>
-            </ul>
-
-            <div id="icons"></div>
-        
-        </nav>
-
+    <?php include("assets/header.php"); ?>
 
     <main>
         <h1>Contacte-moi</h1>
@@ -64,12 +30,7 @@
         </form>
     </main>
     
-    <footer class="footer">
-    
-        <a href="https://carocirier.fr/"><img src="sources/logo.png" alt="logo-caroline-cirier"></a>
-        <a href="https://www.linkedin.com/in/caroline-cirier/" target="_blank"><img src="sources/logo-linkedin-blanc.png" alt="logo linkedin"></a>
-        <a href="https://github.com/carojy" target="_blank"><img src="sources/logo-github-blanc.png" alt="logo github"></a>    
-    </footer>
-    <script src="script_portfolio.js"></script>
+    <?php include("assets/footer.php"); ?>
+
 </body>
 </html>
