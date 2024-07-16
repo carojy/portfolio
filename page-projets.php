@@ -21,7 +21,7 @@
 
         <div class="projets">
 
-            <a href="" target="_blank" class="lien-conteneur-projet">
+            <a href="https://github.com/carojy/projet-collectif-meubleco" target="_blank" class="lien-conteneur-projet">
                 <img src="sources/MEUBLECO.png" alt="projet site e-commerce react / symphony">
                 <div class="projet-hover">
                     <span class="text-hover">Création d'un site e-commerce<br>
